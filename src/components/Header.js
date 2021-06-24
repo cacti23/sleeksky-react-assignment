@@ -7,7 +7,7 @@ const Header = () => {
         <h4>Logo</h4>
       </div>
       <div className='header-time'>
-        <h4>Time</h4>
+        <h4>Current time is: 09:40:02</h4>
       </div>
     </div>
   );
