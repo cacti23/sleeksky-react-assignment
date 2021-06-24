@@ -8,9 +8,13 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <Sidebar />
-      <Content />
-      <Footer />
+      <div className='arrange-one'>
+        <Sidebar />
+        <div className='arrange-two'>
+          <Content />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

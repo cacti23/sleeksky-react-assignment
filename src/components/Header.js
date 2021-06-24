@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header-logo'>
-        <h2>Logo</h2>
+        <h4>Logo</h4>
       </div>
       <div className='header-time'>
-        <h2>Time</h2>
+        <h4>Time</h4>
       </div>
     </div>
   );
