@@ -25,12 +25,27 @@ body {
 }
 
 /* Global Classes */
+
+/* Header */
 .header {
+  display: flex;
+  flex-direction: row;
   height: 100px;
   width: 100vw;
-  border: solid 2px #222;
+  border: solid 1px #222;
 }
 
+.header-logo {
+  width: 100px;
+  border: solid 1px #222;
+}
+
+.header-time {
+  width: calc(100vw - 100px);
+  border: solid 1px #222;
+}
+
+/* class for arrangement */
 .arrange-one {
   display: flex;
   flex-direction: row;
@@ -39,9 +54,10 @@ body {
 .sidebar {
   width: 100px;
   height: calc(100vh - 100px);
-  border: solid 2px #222;
+  border: solid 1px #222;
 }
 
+/* class for arrangement */
 .arrange-two {
   display: flex;
   flex-direction: column;
@@ -50,12 +66,12 @@ body {
 .content {
   width: calc(100vw - 100px);
   height: calc(100vh - 200px);
-  border: solid 2px #222;
+  border: solid 1px #222;
   overflow-x: auto;
 }
 
 .footer {
   width: calc(100vw - 100px);
   height: 100px;
-  border: solid 2px #222;
+  border: solid 1px #222;
 }
