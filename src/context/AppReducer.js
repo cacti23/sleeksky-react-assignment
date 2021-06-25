@@ -4,11 +4,11 @@ export const AppReducer = (state, action) => {
       return {
         time: new Date().toLocaleTimeString(),
       };
-    case 'UPDATE_CLICK':
+    case 'UPDATE_COUNT':
       return {
-        click: state.click + 1,
+        count: state.count + 1,
       };
     default:
-      return state;
+      return new Error();
   }
 };

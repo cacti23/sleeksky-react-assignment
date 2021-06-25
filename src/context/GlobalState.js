@@ -3,7 +3,7 @@ import { AppReducer } from './AppReducer';
 
 const initialState = {
   time: new Date().toLocaleTimeString(),
-  click: 0,
+  count: 0,
 };
 
 export const GlobalContext = createContext(initialState);
@@ -16,15 +16,15 @@ export const GlobalProvider = ({ children }) => {
       type: 'UPDATE_TIME',
     });
   }
-  function updateClick() {
+  function updateCount() {
     dispatch({
-      type: 'UPDATE_CLICK',
+      type: 'UPDATE_COUNT',
     });
   }
 
   return (
     <GlobalContext.Provider
-      value={{ time: state.time, click: state.click, updateTime }}
+      value={{ time: state.time, count: state.count, updateTime, updateCount }}
     >
       {children}
     </GlobalContext.Provider>
