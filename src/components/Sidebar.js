@@ -5,7 +5,7 @@ const Sidebar = () => {
   const { updateCount } = useContext(GlobalContext);
   return (
     <div className='sidebar'>
-      <h4>Sidebar</h4>
+      <h4>sidebar</h4>
       <button type='button' onClick={() => updateCount()}>
         Click Here
       </button>

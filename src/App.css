@@ -24,9 +24,13 @@ body {
   min-height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Global Classes */
 
-/* Header */
+/* Header component */
 .header {
   display: flex;
   flex-direction: row;
@@ -60,6 +64,7 @@ body {
   flex-direction: row;
 }
 
+/* Sidebar component */
 .sidebar {
   width: 100px;
   height: calc(100vh - 100px);
@@ -83,13 +88,25 @@ body {
   flex-direction: column;
 }
 
+/* Content component */
 .content {
   width: calc(100vw - 100px);
   height: calc(100vh - 200px);
-  border: solid 1px #222;
   overflow-x: auto;
+  padding: 20px;
+  position: relative;
 }
 
+.content li {
+  font-size: 1.5rem;
+}
+
+.content h4 {
+  position: absolute;
+  right: 20px;
+}
+
+/* Footer component */
 .footer {
   width: calc(100vw - 100px);
   height: 100px;
