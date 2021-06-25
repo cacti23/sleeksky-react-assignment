@@ -8,7 +8,7 @@ const Header = () => {
     <div className='header'>
       <div className='header-logo'>
         <img
-          src='https://image.freepik.com/free-vector/cute-astronaut-with-hand-peace-cartoon-space-technology-icon-concept-isolated-flat-cartoon-style_138676-2184.jpg'
+          src='https://image.freepik.com/free-vector/cute-astronaut-dabbing-cartoon-icon-illustration-space-science-icon-isolated-flat-cartoon-style_138676-3101.jpg'
           alt='logo'
         />
       </div>
