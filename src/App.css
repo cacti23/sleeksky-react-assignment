@@ -32,12 +32,14 @@ body {
   flex-direction: row;
   height: 100px;
   width: 100vw;
-  border: solid 1px #222;
+  border-bottom: solid 1px #222;
+  background-color: rgb(217, 234, 211);
 }
 
 .header-logo {
   width: 100px;
-  border: solid 1px #222;
+  border-right: solid 1px #222;
+  background-color: white;
 }
 
 .header-time {
@@ -61,7 +63,18 @@ body {
 .sidebar {
   width: 100px;
   height: calc(100vh - 100px);
-  border: solid 1px #222;
+  border-right: solid 1px #222;
+  padding: 10px;
+  position: relative;
+  background-color: rgb(253, 229, 153);
+}
+
+.sidebar button {
+  position: absolute;
+  top: 50px;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(253, 229, 153);
 }
 
 /* class for arrangement */
