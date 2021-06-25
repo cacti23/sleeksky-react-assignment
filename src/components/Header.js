@@ -10,9 +10,8 @@ const Header = () => {
         <h4>Logo</h4>
       </div>
       <div className='header-time'>
-        <h1>
-          Current time is: <p>{time}</p>
-        </h1>
+        <h4>header</h4>
+        <h1>Current time is : {time}</h1>
       </div>
     </div>
   );

@@ -41,8 +41,15 @@ body {
 }
 
 .header-time {
+  position: relative;
   width: calc(100vw - 100px);
-  border: solid 1px #222;
+  padding: 10px;
+}
+
+.header-time h1 {
+  position: absolute;
+  top: 20px;
+  right: 50px;
 }
 
 /* class for arrangement */
