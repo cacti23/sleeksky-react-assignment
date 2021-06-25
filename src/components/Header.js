@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header-logo'>
-        <h4>Logo</h4>
+        <img
+          src='https://image.freepik.com/free-vector/cute-astronaut-with-hand-peace-cartoon-space-technology-icon-concept-isolated-flat-cartoon-style_138676-2184.jpg'
+          alt='logo'
+        />
       </div>
       <div className='header-time'>
         <h4>header</h4>

@@ -5,8 +5,8 @@ const Footer = () => {
   const { count } = useContext(GlobalContext);
   return (
     <div className='footer'>
-      <h4>Footer Element</h4>
-      <h4>You clicked {count} times</h4>
+      <h4 className='name'>footer</h4>
+      <h1>You clicked {count} times</h1>
     </div>
   );
 };
