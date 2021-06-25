@@ -16,6 +16,11 @@ export const GlobalProvider = ({ children }) => {
       type: 'UPDATE_TIME',
     });
   }
+  function updateClick() {
+    dispatch({
+      type: 'UPDATE_CLICK',
+    });
+  }
 
   return (
     <GlobalContext.Provider

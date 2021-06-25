@@ -4,6 +4,10 @@ export const AppReducer = (state, action) => {
       return {
         time: new Date().toLocaleTimeString(),
       };
+    case 'UPDATE_CLICK':
+      return {
+        click: state.click + 1,
+      };
     default:
       return state;
   }
