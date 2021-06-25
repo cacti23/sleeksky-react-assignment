@@ -3,7 +3,7 @@ import { GlobalContext } from '../context/GlobalState';
 
 const Header = () => {
   const { updateTime, time } = useContext(GlobalContext);
-  setInterval(updateTime, 300000);
+  setInterval(updateTime, 1000);
   return (
     <div className='header'>
       <div className='header-logo'>

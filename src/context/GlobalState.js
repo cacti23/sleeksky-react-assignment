@@ -4,6 +4,7 @@ import { AppReducer } from './AppReducer';
 const initialState = {
   time: new Date().toLocaleTimeString(),
   count: 0,
+  clickLog: [],
 };
 
 export const GlobalContext = createContext(initialState);
@@ -24,7 +25,13 @@ export const GlobalProvider = ({ children }) => {
 
   return (
     <GlobalContext.Provider
-      value={{ time: state.time, count: state.count, updateTime, updateCount }}
+      value={{
+        time: state.time,
+        count: state.count,
+        clickLog: state.clickLog,
+        updateTime,
+        updateCount,
+      }}
     >
       {children}
     </GlobalContext.Provider>
